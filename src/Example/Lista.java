@@ -9,12 +9,14 @@ public class Lista {
     //Crear lista "lista1" con List y ArrayList
     List<String> lista1 = new ArrayList<>();
 
-    public void imprimirLista() {
+    public void registrarElemento(){
         //Agregar elementos a la lista "lista1"
         lista1.add("Rojo");
         lista1.add("Amarillo");
         lista1.add("Purpura");
+    }
 
+    public void imprimirLista() {
         //Imprimir
         for (String dato : lista1) {
             System.out.println(dato);
